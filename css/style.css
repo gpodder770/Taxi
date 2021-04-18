@@ -1,0 +1,1154 @@
+/* ===== Lato ===== */
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap");
+
+/* ===== Global CSS ===== */
+body {
+  font-family: "Lato", sans-serif;
+}
+
+h3, h4, h5, h6 {
+  margin: 0;
+  text-align: center;
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 60px;
+  text-transform: uppercase;
+  margin: 0;
+  text-align: center;
+}
+
+h2 {
+  color: #ffc61a;
+  font-weight: 700;
+  text-transform: uppercase;
+  word-spacing: 4px;
+  font-size: 45px;
+  margin: 0;
+  text-align: center;
+}
+
+p {
+  margin: 0;
+}
+
+.btn {
+  transition: 0.5s ease-in-out;
+}
+
+.btn:focus {
+  box-shadow: none;
+}
+
+/* ===== Header Section ===== */
+header {
+  background: url("../img/banner.png") no-repeat center;
+  background-size: cover;
+}
+
+.navbar {
+  padding: 20px 0;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  padding: 5px 25px;
+  text-align: center;
+  color: #fff;
+  transition: 0.5s ease-in-out;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: #ffc61a;
+}
+
+.navbar-dark .navbar-nav .nav-link:focus {
+  font-weight: 700;
+  padding: 5px 25px;
+  color: rgba(0, 0, 0, 0.9);
+  border-radius: 25px;
+  background-color: #ffc61a;
+}
+
+/* ===== Banner Section ===== */
+.banner-content {
+  margin-bottom: -160px;
+}
+
+.banner-content h2 {
+  padding: 80px 0 0;
+}
+
+.banner-content h1 {
+  color: #fff;
+  margin: 10px 0;
+  font-weight: 900;
+}
+
+.banner-content h5 {
+  color: #fff;
+  font-size: 20px;
+  letter-spacing: 10px;
+}
+
+.banner-content img {
+  display: block;
+  margin: 50px auto;
+}
+
+/* ===== Booking Section ===== */
+.book-cab {
+  background-color: #ffc61a;
+  padding: 200px 0 75px;
+}
+
+.book-cab-left h2 {
+  color: #101010;
+  text-align: left;
+}
+
+.book-cab-left h1 {
+  text-align: left;
+  margin: 10px 0;
+  font-size: 42px;
+}
+
+.btn-primary {
+  margin-top: 25px;
+  background-color: #000000;
+  padding: 5px 20px;
+  border-radius: 10px;
+  font-size: 25px;
+  font-weight: 700;
+  text-transform: uppercase;
+  outline: none;
+  border: none;
+}
+
+.btn-primary:hover {
+  color: #333;
+  background-color: #fff;
+}
+
+.btn-primary:focus {
+  color: #333;
+  background-color: #fff;
+}
+
+.booking-form {
+  width: 350px;
+  display: block;
+  margin: 0 auto;
+}
+
+.form-header h2 {
+  color: #fff;
+  background: #101010;
+  padding: 10px 25px;
+  font-size: 30px;
+  text-align: center;
+  margin: 0;
+}
+
+.form-header h2 span {
+  color: #ffc61a;
+}
+
+.form-body {
+  background: #fff;
+  padding: 20px 25px;
+}
+
+.booking-form .form-body .form-control {
+  border: none;
+  border-bottom: 2px solid #e4e4e4;
+  border-radius: 0;
+  padding: 5px;
+}
+
+.booking-form .form-body .form-control:focus {
+  box-shadow: none;
+}
+
+.booking-form .form-body .form-control::placeholder {
+  color: #333;
+  font-weight: 700;
+}
+
+.booking-form .form-body .btn-book-submit {
+  width: 100%;
+  margin-top: 20px;
+  background-color: #000000;
+  color: #fff;
+  padding: 5px 20px;
+  border-radius: 10px;
+  font-size: 25px;
+  font-weight: 700;
+  text-transform: uppercase;
+  outline: none;
+  border: none;
+}
+
+.booking-form .form-body .btn-book-submit:hover {
+  color: #333;
+  background-color: #ffc61a;
+}
+
+/* ===== Tarrifs Section ===== */
+.tarrifs-section {
+  padding: 75px 0;
+}
+
+.tarrifs-section h1 {
+  margin: 10px 0;
+}
+
+.tarrifs {
+  margin-top: 150px;
+}
+
+.tariffs-item {
+  position: relative;
+  background: #f5f4f2;
+  width: 100%;
+  padding: 35px;
+  transition: ease-in-out .3s;
+}
+
+.tariffs-item img {
+  display: block;
+  margin: -120px auto;
+}
+
+.tariffs-item h3 {
+  font-weight: 600;
+  text-align: center;
+  margin-top: 160px;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+.tariffs-item p {
+  text-align: center;
+  padding: 15px 0px 10px;
+}
+
+.tariffs-item h1 {
+  color: #ffc61a;
+  text-transform: uppercase;
+  text-align: center;
+  transition: ease-in-out .3s;
+  margin: 20px 0;
+}
+
+.tariffs-btn {
+  display: block;
+  margin: 0 auto;
+  background-color: #ffc61a;
+  padding: 5px 20px;
+  border-radius: 10px;
+  font-size: 25px;
+  font-weight: 700;
+  text-transform: uppercase;
+  border: none;
+}
+
+.triangle {
+  position: absolute;
+  width: 0;
+  height: 0;
+  border-bottom: 80px solid #1b1b1b;
+  border-left: 80px solid transparent;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  transition: ease-in-out .3s;
+}
+
+.triangle .fa {
+  position: absolute;
+  color: #ffc61a;
+  font-size: 30px;
+  left: -38px;
+  top: 44px;
+  opacity: 0;
+  transition: ease-in-out .3s;
+}
+
+.tariffs-item:hover {
+  background: #ffc61a;
+  transition: ease-in-out .3s;
+}
+
+.tariffs-item:hover h1 {
+  color: #1b1b1b;
+  transition: ease-in-out .3s;
+}
+
+.tariffs-item:hover .tariffs-btn {
+  background: #1b1b1b;
+  color: #fff;
+  transition: ease-in-out .3s;
+}
+
+.tariffs-item:hover .triangle {
+  opacity: 1;
+  transition: ease-in-out .3s;
+}
+
+.tariffs-item:hover .triangle .fa {
+  opacity: 1;
+  transition: ease-in-out .3s;
+}
+
+/* ===== Features Section ===== */
+.features-section {
+  background: url("../img/features.png") no-repeat center;
+  background-size: cover;
+  padding: 75px 0;
+}
+
+.features-section h1 {
+  color: #fff;
+}
+
+.features-desc {
+  margin-top: 100px;
+}
+
+.features-desc .icon {
+  display: flex;
+  align-items: center;
+}
+
+.features-desc .icon-box {
+  width: 110px;
+  height: 110px;
+  background-color: #ffc61a;
+  color: #333;
+  border-radius: 50%;
+  line-height: 110px;
+  text-align: center;
+  font-size: 40px;
+  margin: 0 auto;
+  transition: 0.5s ease-in-out;
+}
+
+.features-desc .icon-box:hover {
+  color: #ffc61a;
+  background-color: black;
+}
+
+.features-desc h5 {
+  text-align: left;
+  color: #ffc61a;
+  font-size: 25px;
+  font-weight: 900;
+}
+
+.features-desc p {
+  color: #fff;
+  padding: 10px 56px 0 0;
+}
+
+.btn-features {
+  display: block;
+  margin: 60px auto 0;
+  background-color: #ffc61a;
+  padding: 5px 20px;
+  border-radius: 10px;
+  font-size: 25px;
+  font-weight: 700;
+  text-transform: uppercase;
+  border: none;
+}
+
+.btn-features:hover {
+  color: black;
+  background-color: #fff;
+}
+
+.btn-features:focus {
+  color: black;
+  background-color: #fff;
+  outline: none;
+}
+
+/* ===== Apps Section ===== */
+.apps-section {
+  padding: 75px 0 0;
+}
+
+.apps-section .apps-desc {
+  margin-top: 100px;
+}
+
+.apps-desc-left {
+  padding: 60px 60px 0;
+}
+
+.apps-desc-left h5 {
+  text-align: left;
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.apps-desc-left p {
+  text-align: left;
+  margin: 30px 0;
+  font-size: 18px;
+}
+
+.apps-desc-left ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.apps-desc-left li {
+  display: inline;
+}
+
+/* ===== Testimonials Section ===== */
+.testimonials-section {
+  background: url("../img/testimonials.png") no-repeat center;
+  background-size: cover;
+  padding: 75px 0;
+}
+
+.testimonials-section h1 {
+  color: #fff;
+}
+
+.testimonials-desc-row {
+  margin-top: 100px;
+}
+
+.testimonials-desc {
+  padding: 40px;
+  background-color: #040707;
+  border-radius: 40px;
+}
+
+.testimonials-desc p {
+  color: #fff;
+}
+
+.testimonial-review {
+  padding: 20px 0 0;
+}
+
+.testimonial-review ul {
+  list-style: none;
+  margin: 0;
+}
+
+.testimonial-review li {
+  display: inline-block;
+  padding-right: 20px;
+}
+
+.testimonial-reviewer {
+  padding: 10px 20px 0;
+}
+
+.testimonial-reviewer h5 {
+  text-align: left;
+  font-size: 25px;
+  font-weight: 900;
+  color: #ffc61a;
+}
+
+.testimonial-reviewer h6 {
+  text-align: left;
+  font-size: 20px;
+  font-weight: 400;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+/* ===== Contact Section ===== */
+.contact-section {
+  padding: 75px 0;
+  background-color: #ffc61a;
+}
+
+.contact-section h2 {
+  color: black;
+}
+
+.contact-section h1 {
+  color: black;
+}
+
+/* ===== Footer Section ===== */
+.footer-section {
+  padding: 75px 0 10px;
+  background: url(../img/footer.png) no-repeat center;
+  background-size: cover;
+}
+
+.footer-section h5 {
+  text-align: left;
+  font-size: 25px;
+  font-weight: 900;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.footer-section .section-title {
+  border: 3px solid #ffc61a;
+  margin: 30px 0;
+}
+
+.footer-section p {
+  padding-right: 20px;
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+.footer-section ul {
+  list-style: none;
+  margin: 0;
+}
+
+.footer-section li {
+  display: inline;
+  padding-right: 20px;
+}
+
+.footer-section .about-icons {
+  color: #ffc61a;
+  font-size: 25px;
+}
+
+.footer-middle-OS p {
+  font-size: 19px;
+  color: #ffc61a;
+  padding: 0;
+  word-spacing: 3px;
+}
+
+.footer-middle-OS .fa-android {
+  color: #fff;
+  padding: 10px 0;
+  font-size: 30px;
+}
+
+.footer-middle-OS .fa-apple {
+  color: #fff;
+  padding: 10px 0;
+  font-size: 30px;
+}
+
+.footer-right-icon {
+  color: #fff;
+}
+
+.footer-copyright h5 {
+  text-align: center;
+  margin-top: 50px;
+  font-size: 20px;
+}
+
+/*=================
+Mobile Media Query
+==================*/
+@media (min-width:320px) and (max-width:575px) {
+  .navbar-dark .navbar-toggler:focus {
+    box-shadow: none;
+  }
+
+  .navbar-dark .navbar-nav .nav-link {
+    text-align: center;
+    font-size: 20px;
+    text-transform: uppercase;
+  }
+
+  h2 {
+    font-size: 35px;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+
+  .banner-content h2 {
+    padding: 20px 0 0;
+  }
+
+  .banner-content h5 {
+    font-size: 15px;
+    padding-left: 15px;
+  }
+
+  .book-cab {
+    padding-bottom: 30px;
+  }
+
+  .book-cab-left h2 {
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  .book-cab-left h1 {
+    text-align: center;
+  }
+
+  .form-control {
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .book-cab p {
+    text-align: center;
+  }
+
+  .btn-primary {
+    margin: 30px auto;
+    display: flex;
+  }
+
+  .tarrifs-section {
+    padding: 30px 0 50px;
+  }
+
+  .tariffs-item h3 {
+    font-size: 35px;
+  }
+
+  .item-2, .item-3 {
+    margin-top: 110px;
+  }
+
+  .features-section {
+    padding: 30px 0px;
+  }
+
+  .features-section h2 {
+    font-size: 35px;
+  }
+
+  .features-section h1 {
+    font-size: 40px;
+  }
+
+  .features-desc {
+    margin-top: 40px;
+  }
+
+  .features-desc h5 {
+    text-align: center;
+    margin-top: 20px;
+  }
+
+  .features-desc p {
+    text-align: center;
+    padding: 10px 0;
+  }
+
+  .btn-features {
+    margin: 30px auto 0;
+  }
+
+  .left-second-feature {
+    margin-bottom: 3rem !important;
+  }
+
+  .apps-section {
+    padding: 30px 0 0;
+  }
+
+  .apps-section h2 {
+    font-size: 35px;
+  }
+
+  .apps-section h1 {
+    font-size: 36px;
+  }
+
+  .apps-section .apps-desc {
+    margin-top: 0;
+  }
+
+  .apps-desc-left {
+    margin: 20px 0 20px;
+    padding: 0;
+  }
+
+  .apps-desc-left h5 {
+    text-align: center;
+    font-size: 28px;
+  }
+
+  .apps-desc-left p {
+    text-align: center;
+    padding: 30px 30px;
+  }
+
+  .apps-desc-left li {
+    display: block;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .apps-desc .app-ui {
+    padding-left: 140px;
+  }
+
+  .testimonials-section {
+    padding: 30px 0;
+  }
+
+  .testimonials-section h2 {
+    font-size: 35px;
+  }
+
+  .testimonials-section h1 {
+    font-size: 40px;
+  }
+
+  .testimonials-desc-row {
+    margin-top: 30px;
+  }
+
+  .testimonials-desc {
+    padding: 25px;
+  }
+
+  .testimonials-desc p {
+    text-align: center;
+  }
+
+  .testimonial-reviewer-img {
+    margin: 0 auto;
+  }
+
+  .testimonial-reviewer h5 {
+    text-align: center;
+  }
+
+  .testimonial-reviewer h6 {
+    text-align: center;
+  }
+
+  .contact-section {
+    padding: 30px 0;
+  }
+
+  .contact-section h2 {
+    font-size: 35px;
+    margin-bottom: 40px;
+  }
+
+  .contact-section h1 {
+    font-size: 40px;
+  }
+
+  .footer-section {
+    padding: 30px 0;
+  }
+
+  .footer-section h5 {
+    text-align: center;
+  }
+
+  .footer-section .section-title {
+    border: 3px solid #ffc61a;
+    margin: 30px auto;
+    width: 290px;
+  }
+
+  .footer-section p {
+    text-align: center;
+    padding: 0 40px;
+    margin: 0;
+  }
+
+  .footer-section ul {
+    text-align: center;
+    margin: 30px 0;
+  }
+
+  .footer-section li {
+    padding: 0 20px;
+  }
+
+  .footer-middle-OS .fa-android {
+    display: block;
+    text-align: center;
+  }
+
+  .footer-middle-OS .fa-apple {
+    display: block;
+    text-align: center;
+  }
+
+  .footer-right-icon {
+    color: #fff;
+    text-align: center;
+    display: block;
+    padding: 10px 0;
+  }
+
+  .footer-copyright h5 {
+    font-size: 15px;
+  }
+}
+
+@media (min-width:576px) and (max-width:767px) {
+  .navbar-dark .navbar-toggler:focus {
+    box-shadow: none;
+  }
+
+  .navbar-dark .navbar-nav .nav-link {
+    text-align: center;
+    font-size: 20px;
+    text-transform: uppercase;
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 60px;
+  }
+
+  h2 {
+    text-align: center;
+    font-size: 50px;
+  }
+
+  h5 {
+    font-size: 25px;
+  }
+
+  p {
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .banner-content h2 {
+    padding: 20px 0 0;
+  }
+
+  .book-cab-left h2 {
+    text-align: center;
+  }
+
+  .book-cab-left h1 {
+    text-align: center;
+  }
+
+  .btn-primary {
+    margin: 30px auto 30px;
+    display: flex;
+    padding: 5px 30px;
+    font-size: 30px;
+  }
+
+  .booking-form {
+    width: 400px;
+  }
+
+  .form-control {
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .item-2, .item-3 {
+    margin-top: 110px;
+  }
+
+  .features-desc {
+    margin-top: 50px;
+  }
+
+  .features-desc h5 {
+    text-align: center;
+    padding-top: 20px;
+  }
+
+  .features-desc p {
+    padding: 20px 20px 0;
+  }
+
+  .btn-features {
+    margin: 30px auto 0;
+  }
+
+  .left-second-feature {
+    margin-bottom: 3rem !important;
+  }
+
+  .apps-section .apps-desc {
+    margin-top: 50px;
+  }
+
+  .apps-desc-left {
+    padding: 0;
+  }
+
+  .apps-desc-left h5 {
+    text-align: center;
+  }
+
+  .apps-desc-left p {
+    text-align: center;
+    padding: 30px 50px;
+    word-break: normal;
+  }
+
+  .apps-desc-left ul {
+    margin-bottom: 30px;
+    text-align: center;
+  }
+
+  .apps-desc-left li {
+    padding: 0;
+  }
+
+  .app-ui {
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+    height: 300px;
+  }
+
+  .testimonials-desc-row {
+    margin: 0;
+  }
+
+  .testimonials-desc {
+    margin: 50px 0 0;
+    padding: 20px;
+  }
+
+  .testimonial-reviewer-img {
+    margin: 0 auto;
+    height: 80px;
+    width: 80px;
+    align-content: center;
+    display: flex;
+    padding: 0;
+  }
+
+  .testimonial-reviewer h5 {
+    text-align: center;
+  }
+
+  .testimonial-reviewer h6 {
+    text-align: center;
+  }
+
+  .contact-section h2 {
+    margin-bottom: 50px;
+    padding: 0 16px;
+  }
+
+  .footer-section {
+    padding: 40px 0 10px;
+  }
+
+  .footer-section h5 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 900;
+    color: #fff;
+    text-transform: uppercase;
+  }
+
+  .footer-section h5 {
+    text-align: center;
+  }
+
+  .footer-section ul {
+    text-align: center;
+    margin: 30px 0;
+  }
+
+  .footer-section li {
+    padding: 0 40px;
+  }
+
+  .footer-section .about-icons {
+    font-size: 35px;
+  }
+
+  .footer-middle-OS p {
+    margin-bottom: 0;
+  }
+
+  .footer-middle-OS .fa-android {
+    display: block;
+    text-align: center;
+    font-size: 35px;
+  }
+
+  .footer-middle-OS .fa-apple {
+    display: block;
+    text-align: center;
+    font-size: 35px;
+  }
+
+  .footer-right-icon {
+    color: #fff;
+    text-align: center;
+    display: block;
+    padding: 10px 0;
+    font-size: 35px;
+  }
+
+  .footer-section h5 {
+    font-size: 25px;
+    margin-top: 35px;
+  }
+}
+
+@media (min-width:768px) and (max-width:991px) {
+  .navbar-dark .navbar-toggler:focus {
+    box-shadow: none;
+  }
+
+  .navbar-dark .navbar-nav .nav-link {
+    text-align: center;
+    font-size: 20px;
+    text-transform: uppercase;
+  }
+
+  .book-cab-left {
+    margin: 0;
+  }
+
+  .book-cab-left h2 {
+    text-align: center;
+  }
+
+  .book-cab-left h1 {
+    text-align: center;
+  }
+
+  .book-cab-left p {
+    text-align: center;
+  }
+
+  .btn-primary {
+    display: block;
+    margin: 15px auto;
+  }
+
+  .booking-form {
+    margin: 50px auto;
+  }
+
+  .booking-form .form-body .form-control {
+    text-align: center;
+  }
+
+  .item-2, .item-3 {
+    margin-top: 110px;
+  }
+
+  .features-desc .icon-box {
+    margin-bottom: 15px;
+  }
+
+  .features-desc h5 {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .features-desc p {
+    padding: 0;
+    text-align: center;
+  }
+
+  .features-desc-right {
+    margin: 0;
+  }
+
+  .apps-desc-right {
+    margin: 0;
+  }
+
+  .apps-desc-right img {
+    max-width: none;
+    height: 100%;
+  }
+
+  .apps-desc-left {
+    margin: 0px 0px 0 60px;
+    padding: 0;
+  }
+
+  .apps-desc-left p {
+    margin: 15px 0 0;
+  }
+
+  .apps-desc-left img {
+    margin-top: 15px;
+  }
+
+  .footer-section ul {
+    display: block;
+    text-align: center;
+  }
+
+  .footer-middle-OS {
+    margin: 0;
+    text-align: center;
+  }
+
+  .footer-right-icons {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .footer-section p {
+    padding-right: 0;
+    text-align: center;
+  }
+}
+
+@media (min-width:992px) and (max-width:1199px) {
+  .tariffs-item img {
+    margin: -90px auto;
+  }
+
+  .tariffs-item h3 {
+    margin-top: 140px;
+  }
+
+  .tariffs-item h1 {
+    font-size: 50px;
+  }
+
+  .apps-desc-left {
+    padding: 0;
+    margin-left: 25px;
+  }
+
+  .apps-desc-left h5 {
+    text-align: center;
+  }
+
+  .apps-desc-left p {
+    text-align: center;
+  }
+
+  .apps-desc-left ul {
+    text-align: center;
+  }
+}
+
+@media (min-width:1200px) and (max-width:1399px) {
+  .tariffs-item img {
+    margin: -110px auto;
+  }
+
+  .tariffs-item h3 {
+    font-size: 30px;
+  }
+
+  .tariffs-item h1 {
+    font-size: 55px;
+  }
+}
