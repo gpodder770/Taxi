@@ -327,7 +327,7 @@ header {
   background-color: #ffc61a;
   color: #333;
   border-radius: 50%;
-  line-height: 110px;
+  line-height: inherit!important;
   text-align: center;
   font-size: 40px;
   margin: 0 auto;
