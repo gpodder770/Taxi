@@ -322,6 +322,10 @@ header {
 }
 
 .features-desc .icon-box {
+  margin: 0 auto;
+}
+
+.features-desc i {
   width: 110px;
   height: 110px;
   background-color: #ffc61a;
@@ -334,7 +338,7 @@ header {
   transition: 0.5s ease-in-out;
 }
 
-.features-desc .icon-box:hover {
+.features-desc i:hover {
   color: #ffc61a;
   background-color: black;
 }
@@ -1047,7 +1051,7 @@ Mobile Media Query
     margin-top: 110px;
   }
 
-  .features-desc .icon-box {
+  .features-desc .i {
     margin-bottom: 15px;
   }
 
